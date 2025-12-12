@@ -1,9 +1,11 @@
 Conclusion
 ==========
 
-Thank you for your participation in the Code. Secure. Repeat.  Lab — From AI Coding to Complete App Security.
-This Lab Guide has highlighted how attendees can leverage AI-accelerated development and securely scan and  
-protect your application with F5 Distributed Cloud services
+Thank you for your participation in the F5 “Code. Secure. Repeat. — From AI Coding to Complete App Security”
+This Lab Guide has highlighted how attendees can confidently deploy AI-assisted applications while using 
+F5 Distributed Cloud Security services to comprehensive application protections.
+
+
 
 Appendix
 ========
