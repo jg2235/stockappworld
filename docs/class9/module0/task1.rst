@@ -201,11 +201,12 @@ only on the Jumphost.
 | |labbgn|                                                                                     |
 +----------------------------------------------------------------------------------------------+
 
-.. |intro001| image:: _static/intro-001.png
+
+.. |intro001| image:: /_static/intro-001.png
    :width: 800px
-.. |intro002| image:: _static/intro-002.png
+.. |intro002| image:: /_static/intro-002.png
    :width: 800px
-.. |intro003| image:: _static/intro-003.png
+.. |intro003| image:: /_static/intro-003.png
    :width: 800px
 .. |intro004| image:: _static/intro-004.png
    :width: 800px
@@ -233,3 +234,8 @@ only on the Jumphost.
    :width: 800px
 .. |labend| image:: _static/labend.png
    :width: 800px
+
+
+   .. image:: ../_static/distributedappclick.png
+      :width: 400pt
+      :class: no-scaled-link
