@@ -28,11 +28,13 @@ Task 1: Lab Environment Resources
 | * **Visual Studio Code Server (browser-based)**                                              |
 | * **GitLab Community Edition (CE)**                                                          |
 | * **Terraform CLI inside VSCode Server**                                                     |
+|                                                                                              |
+| Lets grab that email and get logged in!
 +----------------------------------------------------------------------------------------------+
 | |intro001|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
-Task 2: F5 Distributed Cloud Console Login
+F5 Distributed Cloud Console Login
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following will guide you through the initial Lab environment access within the F5 Distributed
@@ -202,36 +204,36 @@ only on the Jumphost.
 +----------------------------------------------------------------------------------------------+
 
 
-.. |intro001| image:: ./_static/intro-01.png
+.. |intro001| image:: ../_static/intro-01.png
    :width: 800px
-.. |intro002| image:: / _static/intro-002.png
+.. |intro002| image:: ../_static/intro-02.png
    :width: 800px
-.. |intro003| image:: / _static/intro-003.png
+.. |intro003| image:: ../_static/intro-03.png
    :width: 800px
-.. |intro004| image:: _static/intro-004.png
+.. |intro004| image:: ../_static/intro-04.png
    :width: 800px
-.. |intro005| image:: _static/intro-005.png
+.. |intro005| image:: ../_static/intro-05.png
    :width: 800px
-.. |intro006| image:: _static/intro-006.png
+.. |intro006| image:: ../_static/intro-06.png
    :width: 800px
-.. |intro007| image:: _static/intro-007.png
+.. |intro007| image:: ../_static/intro-07.png
    :width: 800px
-.. |intro008| image:: _static/intro-008.png
+.. |intro008| image:: ../_static/intro-008-updated.png
    :width: 800px
-.. |intro009| image:: _static/intro-009.png
+.. |intro009| image:: ../_static/intro-009-updated.png
    :width: 800px
-.. |intro010| image:: _static/intro-010.png
+.. |intro010| image:: ../_static/intro-10.png
    :width: 800px
-.. |intro011| image:: _static/intro-011.png
+.. |intro011| image:: ../_static/intro-11.png
    :width: 800px
-.. |intro012| image:: _static/intro-012.png
+.. |intro012| image:: ../_static/intro-12.png
    :width: 800px
-.. |intro013| image:: _static/intro-013.png
+.. |intro013| image:: ../_static/intro-13.png
    :width: 800px
-.. |intro014| image:: _static/intro-014.png
+.. |intro014| image:: ../_static/intro-14.png
    :width: 800px
-.. |labbgn| image:: _static/labbgn.png
+.. |labbgn| image:: ../_static/labbgn.png
    :width: 800px
-.. |labend| image:: _static/labend.png
+.. |labend| image:: ../_static/labend.png
    :width: 800px
 
