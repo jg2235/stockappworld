@@ -202,7 +202,7 @@ only on the Jumphost.
 +----------------------------------------------------------------------------------------------+
 
 
-.. |intro001| image:: / _static/intro-001.png
+.. |intro001| image:: ./_static/intro-01.png
    :width: 800px
 .. |intro002| image:: / _static/intro-002.png
    :width: 800px
@@ -235,7 +235,3 @@ only on the Jumphost.
 .. |labend| image:: _static/labend.png
    :width: 800px
 
-
-   .. image:: ../_static/distributedappclick.png
-      :width: 400pt
-      :class: no-scaled-link
