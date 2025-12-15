@@ -29,7 +29,7 @@ Task 1: Lab Environment Resources
 | * **GitLab Community Edition (CE)**                                                          |
 | * **Terraform CLI inside VSCode Server**                                                     |
 |                                                                                              |
-| Lets grab that email and get logged in!
+| Lets grab that email and get logged in!                                                      |
 +----------------------------------------------------------------------------------------------+
 | |intro001|                                                                                   |
 +----------------------------------------------------------------------------------------------+
