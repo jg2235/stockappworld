@@ -1,34 +1,35 @@
 
-Introduction: Accessing Lab Resources
-=====================================
+Introduction &  Lab Environment Orientation
+===========================================
 
-Welcome to this F5 Distributed Cloud Lab. The following tasks will guide you through the initial 
-access requirements for this multi-part lab.  Lab attendees should have received an invitation 
+Welcome to this *Code, Secure, Repeat - From AI Coding to Complete App Security Lab*.  The 
+following tasks will guide you through the initial access requirements for this multi-part lab.  
+
+We will be working within VSCode from the Jumphost resource along with the F5 Distributed Cloud 
+Console, where a majority of all lab tasks will be conducted.  F5 Distributed Cloud is a SaaS
+based control-plane for services which provides a GUI and API for managing network, security, and
+compute services. 
+
++----------------------------------------------------------------------------------------------+
+| The key elements lab attendees will interact with are as follows:                            |
+|                                                                                              |
+| * **F5 Distributed Cloud Tenant (WAAP, Web App Scanner, vK8's)**                             |
+| * **Visual Studio Code Server (browser-based)**                                              |
+| * **GitLab Community Edition (CE)**                                                          |
++----------------------------------------------------------------------------------------------+
+
+
+Lab attendees should have received an invitation 
 (which requests you update your password for access) email to the lab environment. Please check 
 the email address used for course registration and its associated spam folders to see if the
 invitation email has been received.  If you have not received an email, please contact a member
 of the lab team.
  
-The F5 Distributed Cloud Console, where a majority of all lab tasks will be conducted, is a SaaS
-based control-plane for services which provides a GUI and API for managing network, security, and
-compute services. The F5 Distributed Cloud Console can manage "sites" in existing on-premises,
-private data centers and sites within AWS, Azure, and GCP public cloud environments.
 
-Task 1: Lab Environment Resources
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Task 1: Verify Lab Component Access
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------------------------------------------------------------------------+
-| The images below represents an overview of the lab environment. F5 Distributed Cloud Services|
-|                                                                                              |
-| will be configured as a SaaS Edge delivery and security service tier to a publicly hosted web|
-|                                                                                              |
-| application. The key elements lab attendees will interact with are as follows:               |
-|                                                                                              |
-| * **F5 Distributed Cloud Tenant (WAAP,API Security, WAS, vK8's**                             |
-| * **Visual Studio Code Server (browser-based)**                                              |
-| * **GitLab Community Edition (CE)**                                                          |
-| * **Terraform CLI inside VSCode Server**                                                     |
-|                                                                                              |
 | Lets grab that email and get logged in!                                                      |
 +----------------------------------------------------------------------------------------------+
 | |intro001|                                                                                   |
