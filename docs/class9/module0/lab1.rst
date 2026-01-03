@@ -1,6 +1,7 @@
+Module 0: Introduction &  Lab Environment Orientation
+=====================================================
 
-Introduction &  Lab Environment Orientation
-===========================================
+
 
 Welcome to this *Code, Secure, Repeat - From AI Coding to Complete App Security Lab*.  The 
 following tasks will guide you through verfiying and getting familiar with the lab's initial
@@ -10,6 +11,8 @@ The majority of the lab task will be conducted using Visual Studio Code Server f
 along with the F5 Distributed Cloud Console. F5 Distributed Cloud is a SaaS based control-plane for
 services which provides a GUI and API for managing network, security, and compute services. Web App 
 Scanning (WAS) will be utilized to demonstrate vulnerabilities in our AI assisted and Vibe coded application.
+
+**Expected Lab Time: 20 minutes**
 
 +----------------------------------------------------------------------------------------------+
 | **Beginning of Lab:**  You are now ready to begin the lab, Enjoy! Ask questions as needed.   |
