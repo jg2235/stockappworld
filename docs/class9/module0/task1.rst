@@ -11,9 +11,18 @@ along with the F5 Distributed Cloud Console. F5 Distributed Cloud is a SaaS base
 services which provides a GUI and API for managing network, security, and compute services. Web App 
 Scanning (WAS) will be utilized to demonstrate vulnerabilities in our AI assisted and Vibe coded application.
 
++----------------------------------------------------------------------------------------------+
+| **Beginning of Lab:**  You are now ready to begin the lab, Enjoy! Ask questions as needed.   |
++----------------------------------------------------------------------------------------------+
+| |labbgn|                                                                                     |
++----------------------------------------------------------------------------------------------+
+
+
+
+
 
 +----------------------------------------------------------------------------------------------+
-| Lab attendees will interact and explore the following resources                              |
+| Lab attendees will interact and explore the following resources for the next two tasks       |
 |                                                                                              |
 | * **F5 Distributed Cloud Tenant (CE's , vK8's, API Credentials)**                            |
 | * **Visual Studio Code Server (browser-based)**                                              |
@@ -21,6 +30,8 @@ Scanning (WAS) will be utilized to demonstrate vulnerabilities in our AI assiste
 | * **Cline Extension**                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
+
+
 
 Lets get started!
 
@@ -30,30 +41,40 @@ Task 1: Verify Lab Component Access
 For this task we will explore and verify access to each component that we will use throughout the course.
 
 +----------------------------------------------------------------------------------------------+
-| First up locate  the **Jump Host** resource and click **Access**                             |
+| 1. First up locate  the **Jump Host** resource and click **Access**  then **VSCODE**         |
 |                                                                                              |
 | |task1-01|                                                                                   |
 +----------------------------------------------------------------------------------------------+
-
-
-Lab attendees should have received an invitation 
-(which requests you update your password for access) email to the lab environment. Please check 
-the email address used for course registration and its associated spam folders to see if the
-invitation email has been received.  If you have not received an email, please contact a member
-of the lab team.
- 
-
-Task 1: Verify Lab Component Access
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------------------------------------------------------------------------+
-| Lets grab that email and get logged in!                                                      |
-+----------------------------------------------------------------------------------------------+
-| |intro001|                                                                                   |
+|                                                                                              |
+| 2. Now enter the password *AppWorld2026!* and Click **Submit**                               |
+|                                                                                              |
+| |task1-02|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
-F5 Distributed Cloud Console Login
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| 3. Walk through setting up your color scheme in VSCode, select a color scheme                |
+| and Click **Mark Done**                                                                      |
+|                                                                                              |
+| |task1-03|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------+
+| 4. You will aslo notice to the far right an AI assisted Build Agent, you can click the "X"   |
+| in the corner to close this out.  (See Image Above for location                              |
+|                                                                                              |
+| |task1-04|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| 5. Placed Holder for Gitlab Community Edition CE                                             |
+| |task1-xx|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
+Now we will work on verifying F5 Distributed Cloud tenant access and pre-configured objects needed 
+for the remainder of the labs.
 
 The following will guide you through the initial Lab environment access within the F5 Distributed
 Cloud Console.  You should have received an email with an invitation to access a F5 Distributed
@@ -69,55 +90,50 @@ throughout the lab tasks that follow.
 After following the invitation email's instructions to **Update Password**, proceed to the first
 step below to access the F5 Distributed Cloud Lab Tenant. 
 
+Lab attendees should have received an invitation 
+(which requests you update your password for access) email to the lab environment. Please check 
+the email address used for course registration and its associated spam folders to see if the
+invitation email has been received.  If you have not received an email, please contact a member
+of the lab team.
+
 +----------------------------------------------------------------------------------------------+
-| 1. Please log into the F5 Distributed Cloud Lab Tenant with your user ID (email) & password. |
+| 1. Lets grab that email and click **Accept Invitation**                                      |
 |                                                                                              |
-|    https://f5-xc-lab-app.console.ves.volterra.io/                                            |
++----------------------------------------------------------------------------------------------+
+| |task1-05|                                                                                   |
 |                                                                                              |
-| 2. When you first login, accept the Lab tenant EULA. Click the check box and then click      |
++----------------------------------------------------------------------------------------------+
+| 2. This should bring you to the sign-in screen below                                         |
 |                                                                                              |
-|    **Accept and Agree**.                                                                     |
++----------------------------------------------------------------------------------------------+
+| |task1-06|                                                                                   |
 |                                                                                              |
-| 3. Select all work domain roles and click **Next** to see various configuration options.     |
++----------------------------------------------------------------------------------------------+
+| 3.  When you first login, accept the Lab tenant EULA. Click the check box and then click     |
+|                                                                                              |
+|     **Accept and Agree**.                                                                    |
++----------------------------------------------------------------------------------------------+
+| |task1-07|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+| 4. Select **Super User** domain role and click **Next** to see various configuration options.|
 |                                                                                              |
 |    Roles can be changed any time later if desired.                                           |
 |                                                                                              |
-| 4. Click the **Advanced** skill level to expose more menu options and then click **Get**     |
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| |task1-08|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+| 5. Click the **Advanced** skill level to expose more menu options and then click **Get**     |
 |                                                                                              |
 |    **Started** to begin. You can change this setting after logging in as well.               |
-|                                                                                              |
-| 5. Several **Guidance ToolTips** will appear, you can safely close these as they appear.     |
 +----------------------------------------------------------------------------------------------+
-| |intro002|                                                                                   |
 |                                                                                              |
-| |intro003|                                                                                   |
+| |task1-09|                                                                                   |
 |                                                                                              |
-| |intro004|                                                                                   |
-|                                                                                              |
-| |intro005|                                                                                   |
 +----------------------------------------------------------------------------------------------+
-
-+----------------------------------------------------------------------------------------------+
-| 6. You can adjust your work domains and skill level (not required) by clicking on the        |
-|                                                                                              |
-|    **Account** icon in the top right of the screen and then clicking on **Account Settings**.|
-|                                                                                              |
-| 7. In the resulting window you can observe the **Work domains and skill level** section and  |
-|                                                                                              |
-|    other administrative functions.                                                           |
-|                                                                                              |
-| .. note::                                                                                    |
-|    *For the purposes of this lab, permissions have been restricted to lab operations.  As a* |
-|                                                                                              |
-|    *result some menus will be locked and not visible.*                                       |
-+----------------------------------------------------------------------------------------------+
-| |intro006|                                                                                   |
-|                                                                                              |
-| |intro007|                                                                                   |
-+----------------------------------------------------------------------------------------------+
-
-+----------------------------------------------------------------------------------------------+
-| 8. Namespaces, which provide an environment for isolating configured applications or         |
+| 6. Namespaces, which provide an environment for isolating configured applications or         |
 |                                                                                              |
 |    enforcing role-based access controls, are leveraged within the F5 Distributed Cloud       |
 |                                                                                              |
@@ -125,133 +141,159 @@ step below to access the F5 Distributed Cloud Lab Tenant.
 |                                                                                              |
 |    **namespace** which you will be defaulted to (in terms of GUI navigation) for all tasks   |
 |                                                                                              |
-|    performed through the course of this lab.                                                 |
+|    performed through the course of this lab.  To locate your specific namespace on the main  |
 |                                                                                              |
-| 9. Click on the **Select Service** in the left-hand navigation. In the resulting fly out     |
+|    screen below click the **profile**  icon in the upper right hand corner then select       |
 |                                                                                              |
-|    navigation, click **Web App & API Protection**.                                           |
-|                                                                                              |
-| 10. In the **Web App & API Protection** configuration screen observe the URL. In the URI     |
-|                                                                                              |
-|     path, locate the **<adjective-animal>** namespace that you have been assigned. It will be|
-|                                                                                              |
-|     located in the portion of the URI path between */namespaces/* and */overview/* as shown  |
-|                                                                                              |
-|     in this example **…/namespaces/<namespace>/overview/…**. Note the namespace as it will   |
-|                                                                                              |
-|     be used throughout the lab tasks that follow.                                            |
-|                                                                                              |
-| .. note::                                                                                    |
-|    *Administratively, there are other ways to find namespaces. Due to access and permission* |
-|                                                                                              |
-|    *restrictions for this particular lab, those menus are not available.*                    |
+|    **Account Settings**                                                                      |
 +----------------------------------------------------------------------------------------------+
-| |intro008|                                                                                   |
 |                                                                                              |
-| |intro009|                                                                                   |
-+----------------------------------------------------------------------------------------------+
-
-Task 3: Accessing your Lab Jumphost
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The following will guide you through accessing your Lab Jumphost.  Subsequent tasks will require
-you to use the Jumphost for access to the OpenBullet tool and other associated resources available
-only on the Jumphost. 
-
-+----------------------------------------------------------------------------------------------+
-| 1. Returning to the UDF Course screen in your browser, click on the **Deployment** tab and   |
+| |task1-10|                                                                                   |
 |                                                                                              |
-|    then observer the **JumpHost** and its two options; **Access** and **Details**. You will  |
-|                                                                                              |
-|    first click on the **Details** link.                                                      |
 +----------------------------------------------------------------------------------------------+
-| |intro010|                                                                                   |
+| 7. Under personal management now click **My Namespaces**                                     |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| |task1-11|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+| 8. To the the right you will see a unique **Namespace** assigned specifically to you, keep   |
+|                                                                                              |
+|    note of this as you will use this throught the remaining labs                             |
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| |task1-12|                                                                                   |
+|                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
+Great! Now that we have taken care of some of the inital configurations lets finish up the rest in Task 2.
+
+Task 2: Configure Cline Extension and GITLAB environment 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In this task we will finish setting up the Cline Extension and GITLAB environments so we can start
+our  AI-assisted and Vibe coding journey.
+
 +----------------------------------------------------------------------------------------------+
-| 2. In the resulting window note the **Administrator** password which you will use shortly    |
+| 1. Locate  the **Jump Host** resource and click **Access**  then **VSCODE**                  |
 |                                                                                              |
-|    and then click **Done** in the bottom right-hand corner of the window.                    |
-|                                                                                              |
-|    .. warning::                                                                              |
-|                                                                                              |
-|       **DO NOT CLICK STOP**. If you do so you will have to wait till it stops then restart   |
-|                                                                                              |
-|       your JumpHost for this lab.                                                            |
+| |task1-01|                                                                                   |
 +----------------------------------------------------------------------------------------------+
-| |intro011|                                                                                   |
+| 2. Look to the leftmost side and locate the Cline icon as indicated below                    |
+|                                                                                              |
+|  |task2-01|                                                                                  |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+| 3. Select **Bring my own API Key** and Click Continue                                        |
+|                                                                                              |
+| |task2-02|                                                                                   |
++----------------------------------------------------------------------------------------------+
+| 4. Configure the Provider with the following values then click **Continue**                  |
+|                                                                                              |
+|    **API Provider:** *GCP Vertex AI*                                                         |
+|                                                                                              |
+|    **Google Cloud Project ID:** *vscode-xxxxxx*                                              |
+|                                                                                              |
+|    **Google Cloud Region:** *us-central1*                                                    |
+|                                                                                              |
+|    **Model:** *gemini-2.5-flash*                                                             |
+|                                                                                              |
+| |task2-03|                                                                                   |
++----------------------------------------------------------------------------------------------+
+| 5. When successfully configured you should see the following                                 |
+|                                                                                              |
+| |task2-04|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+
+
+Before we can complete the GITLAB setup we need to generate an API token from F5 Distributed Cloud.
+Let's head back in and take care of this!
+
+
++----------------------------------------------------------------------------------------------+
+| 1. Generating a API Token is under your profile begin by click the **profile**  icon in the  | 
+|                                                                                              |
+|    upper right hand corner then select **Account Settings**                                  |
+|                                                                                              |
+| |task1-10|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+| 2. Under **Personal Management** Click **Credentials** then **Add Credentials**              | 
+|                                                                                              |
+| |task2-05|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+| 3. Use the following values:                                                                 | 
+|                                                                                              |
+|    **Credential Name:** *your-namespace-token*                                               |
+|                                                                                              |
+|    **Credential Type:** *API Token                                                           |
+|                                                                                              |
+|    **Expiry Date:** *Any Future Date*                                                        |
+|                                                                                              |
+|                                                                                              |
+| |task2-06|                                                                                   |
+|                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 3. Returning to the UDF Course screen in your browser and the **Deployment** tab and click   |
+| 4. Click **Generate** at the bottom of the window and take note of the API Token value.      | 
 |                                                                                              |
-|    on the **Access** link. From the resulting dropdown, click on the resolution you prefer.  |
-|    If you don't get a resolution selection, just accept the default.                         |
-+----------------------------------------------------------------------------------------------+
-| |intro012|                                                                                   |
+|    This will only appear once so copy and store otherwise you will need to either delete and |
+|                                                                                              |
+|    create a new API Token if you lose this key.                                              |
+|                                                                                              |
+| |task2-07|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
-+----------------------------------------------------------------------------------------------+
-| 4. A RDP file will download which you will need to open.  Note different browsers will render|
-|                                                                                              |
-|    the download differently.  Your OS platform must have an application which supports       |
-|                                                                                              |
-|    opening RDP files in order to access the JumpHost.                                        |
-+----------------------------------------------------------------------------------------------+
-| |intro013|                                                                                   |
-+----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 5. You will then be prompted to log in as Administrator to the JumpHost.  Note the prompt    |
-|                                                                                              |
-|    may render differently for other RDP clients. If you experience an abnormally long delay  |
-|                                                                                              |
-|    in accessing the JumpHost, changing the **If server authentication fails** setting to     |
-|                                                                                              |
-|    **Connect and don't warn me**.  If you cannot connect, please alert a lab team member.    |
-|                                                                                              |
-|    Anti-virus configurations, VPN or conflicting applications can also complicate access.    |
+| **End of Lab:** Nice Job! Its time to get hands on with AI Coding to Complete App Security!  |
 +----------------------------------------------------------------------------------------------+
-| |intro014|                                                                                   |
-+----------------------------------------------------------------------------------------------+
-
-+----------------------------------------------------------------------------------------------+
-| **Beginning of Lab:**  You are now ready to begin the lab, Enjoy! Ask questions as needed.   |
-+----------------------------------------------------------------------------------------------+
-| |labbgn|                                                                                     |
+| |labend|                                                                                     |
 +----------------------------------------------------------------------------------------------+
 
 
 .. |task1-01| image:: ../_static/task1-01.png
    :width: 800px
-.. |intro001| image:: ../_static/intro-01.png
+.. |task1-02| image:: ../_static/task1-02.png
    :width: 800px
-.. |intro002| image:: ../_static/intro-02.png
+.. |task1-03| image:: ../_static/task1-03.png
    :width: 800px
-.. |intro003| image:: ../_static/intro-03.png
+.. |task1-04| image:: ../_static/task1-04.png
+   :width: 500px
+.. |task1-05| image:: ../_static/task1-05.png
    :width: 800px
-.. |intro004| image:: ../_static/intro-04.png
+.. |task1-06| image:: ../_static/task1-06.png
    :width: 800px
-.. |intro005| image:: ../_static/intro-05.png
+.. |task1-07| image:: ../_static/task1-07.png
    :width: 800px
-.. |intro006| image:: ../_static/intro-06.png
+.. |task1-08| image:: ../_static/task1-08.png
    :width: 800px
-.. |intro007| image:: ../_static/intro-07.png
+.. |task1-09| image:: ../_static/task1-09.png
    :width: 800px
-.. |intro008| image:: ../_static/intro-008-updated.png
+.. |task1-10| image:: ../_static/task1-10.png
    :width: 800px
-.. |intro009| image:: ../_static/intro-009-updated.png
+.. |task1-11| image:: ../_static/task1-11.png
    :width: 800px
-.. |intro010| image:: ../_static/intro-10.png
+.. |task1-12| image:: ../_static/task1-12.png
    :width: 800px
-.. |intro011| image:: ../_static/intro-11.png
+.. |task2-01| image:: ../_static/task2-01.png
+   :width: 300px
+.. |task2-02| image:: ../_static/task2-02.png
    :width: 800px
-.. |intro012| image:: ../_static/intro-12.png
+.. |task2-03| image:: ../_static/task2-03.png
    :width: 800px
-.. |intro013| image:: ../_static/intro-13.png
+.. |task2-04| image:: ../_static/task2-04.png
    :width: 800px
-.. |intro014| image:: ../_static/intro-14.png
+.. |task2-05| image:: ../_static/task2-05.png
    :width: 800px
+.. |task2-06| image:: ../_static/task2-06.png
+   :width: 600px
+.. |task2-07| image:: ../_static/task2-07.png
+   :width: 600px
 .. |labbgn| image:: ../_static/labbgn.png
    :width: 800px
 .. |labend| image:: ../_static/labend.png
