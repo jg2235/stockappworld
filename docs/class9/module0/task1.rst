@@ -3,19 +3,36 @@ Introduction &  Lab Environment Orientation
 ===========================================
 
 Welcome to this *Code, Secure, Repeat - From AI Coding to Complete App Security Lab*.  The 
-following tasks will guide you through the initial access requirements for this multi-part lab.  
+following tasks will guide you through verfiying and getting familiar with the lab's initial
+access requirements.  
 
-We will be working within VSCode from the Jumphost resource along with the F5 Distributed Cloud 
-Console, where a majority of all lab tasks will be conducted.  F5 Distributed Cloud is a SaaS
-based control-plane for services which provides a GUI and API for managing network, security, and
-compute services. 
+The majority of the lab task will be conducted using Visual Studio Code Server from the Jumphost resource 
+along with the F5 Distributed Cloud Console. F5 Distributed Cloud is a SaaS based control-plane for
+services which provides a GUI and API for managing network, security, and compute services. Web App 
+Scanning (WAS) will be utilized to demonstrate vulnerabilities in our AI assisted and Vibe coded application.
+
 
 +----------------------------------------------------------------------------------------------+
-| The key elements lab attendees will interact with are as follows:                            |
+| Lab attendees will interact and explore the following resources                              |
 |                                                                                              |
-| * **F5 Distributed Cloud Tenant (WAAP, Web App Scanner, vK8's)**                             |
+| * **F5 Distributed Cloud Tenant (CE's , vK8's, API Credentials)**                            |
 | * **Visual Studio Code Server (browser-based)**                                              |
-| * **GitLab Community Edition (CE)**                                                          |
+| * **GitLab Community Edition (CE)**                                                          | 
+| * **Cline Extension**                                                                        |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+
+Lets get started!
+
+Task 1: Verify Lab Component Access
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For this task we will explore and verify access to each component that we will use throughout the course.
+
++----------------------------------------------------------------------------------------------+
+| First up locate  the **Jump Host** resource and click **Access**                             |
+|                                                                                              |
+| |task1-01|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 
@@ -205,6 +222,8 @@ only on the Jumphost.
 +----------------------------------------------------------------------------------------------+
 
 
+.. |task1-01| image:: ../_static/task1-01.png
+   :width: 800px
 .. |intro001| image:: ../_static/intro-01.png
    :width: 800px
 .. |intro002| image:: ../_static/intro-02.png
