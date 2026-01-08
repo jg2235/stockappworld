@@ -39,12 +39,12 @@ VSCode and use AI to vibe code our application.
 +----------------------------------------------------------------------------------------------+
 | 1. First up locate  the **Jump Host** resource and click **Access**  then **VSCODE**         |
 |                                                                                              |
-| |task1-01|                                                                                   |
+| |vscode1|                                                                                    |
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
 | 2. Now enter the password *AppWorld2026!* and Click **Submit**  to login to VSCode           |
 |                                                                                              |
-| |task1-02|                                                                                   |
+| |vscode2|                                                                                    |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
@@ -56,25 +56,25 @@ VSCode and use AI to vibe code our application.
 |    preference, pick a color scheme and click **Mark Done** when your customizations are      |
 |                                                                                              |
 |    complete.                                                                                 |
-| |task1-03|                                                                                   |
+| |vscode3|                                                                                    |
 +----------------------------------------------------------------------------------------------+
 
 .. note::
    *Students may see a this pop-up below, if you do simply click Allow*
 
 +----------------------------------------------------------------------------------------------+
-| |task1-13|                                                                                   |
+| |vscode4|                                                                                    |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
 | 4. Lets close the VSCode AI code assistant by clicking the "X" in the upper right hand corner|
 |                                                                                              |
-| |task1-04|                                                                                   | 
+| |vscode5|                                                                                    | 
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 5.  Finally lets close the walkthrough screen by click on the "X"                            |
 |                                                                                              |
-| |task1-14|                                                                                   |
+| |vscode6|                                                                                    |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
@@ -185,12 +185,12 @@ memberof the lab team.
 | |task1-10|                                                                                   |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
-| 10. Under **Personal Management** Click **Credentials** then **Add Credentials**              | 
+| 10. Under **Personal Management** Click **Credentials** then **Add Credentials**             | 
 |                                                                                              |
 | |task2-05|                                                                                   |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
-| 11. Use the following values:                                                                 | 
+| 11. Use the following values:                                                                | 
 |                                                                                              |
 |    **Credential Name:** *your-namespace-token*                                               |
 |                                                                                              |
@@ -204,7 +204,7 @@ memberof the lab team.
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 12. Click **Generate** at the bottom of the window and take note of the API Token value.      | 
+| 12. Click **Generate** at the bottom of the window and take note of the API Token value.     | 
 |                                                                                              |
 |    This will only appear once so copy and store otherwise you will need to either delete and |
 |                                                                                              |
@@ -268,13 +268,17 @@ our  AI-assisted and Vibe coding journey.
 +----------------------------------------------------------------------------------------------+
 
 
-.. |task1-01| image:: ../_static/task1-01.png
+.. |vscode1| image:: ../_static/vscode1.png
    :width: 800px
-.. |task1-02| image:: ../_static/task1-02.png
+.. |vscode2| image:: ../_static/vscode2.png
    :width: 800px
-.. |task1-03| image:: ../_static/task1-03.png
+.. |vscode3| image:: ../_static/vscode3.png
    :width: 800px
-.. |task1-04| image:: ../_static/task1-04.png
+.. |vscode4| image:: ../_static/vscode4.png
+   :width: 400px
+.. |vscode5| image:: ../_static/vscode5.png
+   :width: 400px
+.. |vscode6| image:: ../_static/vscode6.png
    :width: 400px
 .. |task1-05| image:: ../_static/task1-05.png
    :width: 800px
@@ -292,10 +296,6 @@ our  AI-assisted and Vibe coding journey.
    :width: 800px
 .. |task1-12| image:: ../_static/task1-12.png
    :width: 800px
-.. |task1-13| image:: ../_static/task1-13.png
-   :width: 400px
-.. |task1-14| image:: ../_static/task1-14.png
-   :width: 400px
 .. |task2-01| image:: ../_static/task2-01.png
    :width: 300px
 .. |task2-02| image:: ../_static/task2-02.png
