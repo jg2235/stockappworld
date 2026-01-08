@@ -208,57 +208,68 @@ memberof the lab team.
 |                                                                                              |
 |    This will only appear once so copy and store otherwise you will need to either delete and |
 |                                                                                              |
-|    create a new API Token if you lose this key.                                              |
+|    create a new API Token if you lose this key.  Store it we will need it for the next task  |
 |                                                                                              |
 | |xc15|                                                                                       |
 +----------------------------------------------------------------------------------------------+
 
 
 
-
-
 Great! Now that we have taken care of some of the inital configurations lets finish up the rest in Task 2.
+
+
 
 Task 2: Configure Cline Extension and GITLAB environment 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In this task we will finish setting up the Cline Extension and GITLAB environments so we can start
-our  AI-assisted and Vibe coding journey.
+Hey there, future app innovators! Dive into this essential setup task to supercharge your VSCode with the 
+Cline extension powered by Gemini and integrate GitLab with your F5XC API token for seamless automation.
+You'll configure Cline by selecting GCP Vertex AI as the provider and the gemini-2.5-flash model, then 
+test it with a fun welcome prompt to verify connectivity. Next, set up GitLab to use your API token and 
+confirm everything's linked up.  With guided steps and images to help, this quick config will have you 
+ready for AI-assisted coding and CI/CD workflows. Let's make your environment vibe!
 
 +----------------------------------------------------------------------------------------------+
 | 1. Locate  the **Jump Host** resource and click **Access**  then **VSCODE**                  |
 |                                                                                              |
-| |task1-01|                                                                                   |
+| |vscode1|                                                                                    |
 +----------------------------------------------------------------------------------------------+
 | 2. Look to the leftmost side and locate the Cline icon as indicated below                    |
 |                                                                                              |
-|  |task2-01|                                                                                  |
+| |cline1|                                                                                     |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 3. Select **Bring my own API Key** and Click Continue                                        |
 |                                                                                              |
-| |task2-02|                                                                                   |
+| |cline2|                                                                                     |
 +----------------------------------------------------------------------------------------------+
 | 4. Configure the Provider with the following values then click **Continue**                  |
 |                                                                                              |
 |    **API Provider:** *GCP Vertex AI*                                                         |
 |                                                                                              |
-|    **Google Cloud Project ID:** *vscode-xxxxxx*                                              |
-|                                                                                              |
-|    **Google Cloud Region:** *us-central1*                                                    |
-|                                                                                              |
 |    **Model:** *gemini-2.5-flash*                                                             |
 |                                                                                              |
-| |task2-03|                                                                                   |
+| |cline3|                                                                                     |
 +----------------------------------------------------------------------------------------------+
-| 5. When successfully configured you should see the following                                 |
+| 5. When configured you should see the popup, close it by clicking "X"                        |
 |                                                                                              |
-| |task2-04|                                                                                   |
+| |cline4|                                                                                     |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
-
-
-
+| 6. You can expand the Cline extension window by clicking the divider line and drag it        |
+|                                                                                              |
+|    Now you can work with the welcome prompt, lets copy and paste the following               |
+|                                                                                              |
+|    **Hi Gemini!! Welcome to AppWorld 2026!! We are going to have fun vibe coding !!**        |
+|                                                                                              |
+|   Then click on **Act** as indicated below                                                   |
+|                                                                                              |
+| |cline5|                                                                                     |
++----------------------------------------------------------------------------------------------+
+| 7. We can see the task was successfully processed, check it out below !                      |
+|                                                                                              |
+| |cline6|                                                                                     |
++----------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------+
@@ -302,13 +313,17 @@ our  AI-assisted and Vibe coding journey.
    :width: 600px
 .. |xc15| image:: ../_static/xc15.png
    :width: 600px
-.. |task2-01| image:: ../_static/task2-01.png
+.. |cline1| image:: ../_static/cline1.png
    :width: 300px
-.. |task2-02| image:: ../_static/task2-02.png
+.. |cline2| image:: ../_static/cline2.png
    :width: 800px
-.. |task2-03| image:: ../_static/task2-03.png
+.. |cline3| image:: ../_static/cline3.png
    :width: 800px
-.. |task2-04| image:: ../_static/task2-04.png
+.. |cline4| image:: ../_static/cline4.png
+   :width: 800px
+.. |cline5| image:: ../_static/cline5.png
+   :width: 800px
+.. |cline6| image:: ../_static/cline6.png
    :width: 800px
 .. |labbgn| image:: ../_static/labbgn.png
    :width: 800px
