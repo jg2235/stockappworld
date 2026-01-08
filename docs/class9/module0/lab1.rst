@@ -84,7 +84,7 @@ VSCode and use AI to vibe code our application.
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
-For now we are finsihed working with VSCode and we can turn our attention to getting F5 Distributed Cloud tenant access verified
+For now we are finished working with VSCode and we can turn our attention to getting F5 Distributed Cloud tenant access verified
 
 The following steps will guide you through the initial setup to access the Distributed Cloud Console and complete user access
 customizations.  We will then verify pre-configured objects such as Namespaces, CE's, Virtual Sites and the vk8's clusters.  These
@@ -109,20 +109,20 @@ memberof the lab team.
 | 1. Lets grab that email and click **Accept Invitation**                                      |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
-| |task1-05|                                                                                   |
+| |xc1|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
-| 2. This should bring you to the sign-in screen below, Click **Sign in with Okta**            |
+| 2. This should bring you to the sign-in screen below, Click **Sign In with Okta**            |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
-| |task1-06|                                                                                   |
+| |xc2|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 3.  When you first login, accept the Lab tenant EULA. Click the check box and then click     |
 |                                                                                              |
 |     **Accept and Agree**.                                                                    |
 +----------------------------------------------------------------------------------------------+
-| |task1-07|                                                                                   |
+| |xc3|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 4. Select **Super User** domain role and click **Next** to see various configuration options.|
@@ -131,7 +131,7 @@ memberof the lab team.
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| |task1-08|                                                                                   |
+| |xc4|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 5. Click the **Advanced** skill level to expose more menu options and then click **Get**     |
@@ -139,7 +139,7 @@ memberof the lab team.
 |    **Started** to begin. You can change this setting after logging in as well.               |
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| |task1-09|                                                                                   |
+| |xc5|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 6. Namespaces, which provide an environment for isolating configured applications or         |
@@ -157,14 +157,14 @@ memberof the lab team.
 |    **Account Settings**                                                                      |
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| |task1-10|                                                                                   |
+| |xc6|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 7. Under personal management now click **My Namespaces**                                     |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| |task1-11|                                                                                   |
+| |xc7|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 8. To the the right you will see a unique **Namespace** assigned specifically to you, keep   |
@@ -172,7 +172,7 @@ memberof the lab team.
 |    note of this as you will use this throught the remaining labs                             |
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| |task1-12|                                                                                   |
+| |xc8|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
@@ -182,24 +182,24 @@ memberof the lab team.
 |                                                                                              |
 |    upper right hand corner then select **Account Settings**                                  |
 |                                                                                              |
-| |task1-10|                                                                                   |
+| |xc6|                                                                                        |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 10. Under **Personal Management** Click **Credentials** then **Add Credentials**             | 
 |                                                                                              |
-| |task2-05|                                                                                   |
+| |xc13|                                                                                       |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | 11. Use the following values:                                                                | 
 |                                                                                              |
 |    **Credential Name:** *your-namespace-token*                                               |
 |                                                                                              |
-|    **Credential Type:** *API Token                                                           |
+|    **Credential Type:** *API Token*                                                          |
 |                                                                                              |
 |    **Expiry Date:** *Any Future Date*                                                        |
 |                                                                                              |
 |                                                                                              |
-| |task2-06|                                                                                   |
+| |xc14|                                                                                       |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
@@ -210,7 +210,7 @@ memberof the lab team.
 |                                                                                              |
 |    create a new API Token if you lose this key.                                              |
 |                                                                                              |
-| |task2-07|                                                                                   |
+| |xc15|                                                                                       |
 +----------------------------------------------------------------------------------------------+
 
 
@@ -280,22 +280,28 @@ our  AI-assisted and Vibe coding journey.
    :width: 400px
 .. |vscode6| image:: ../_static/vscode6.png
    :width: 400px
-.. |task1-05| image:: ../_static/task1-05.png
+.. |xc1| image:: ../_static/xc1.png
    :width: 800px
-.. |task1-06| image:: ../_static/task1-06.png
+.. |xc2| image:: ../_static/xc2.png
    :width: 800px
-.. |task1-07| image:: ../_static/task1-07.png
+.. |xc3| image:: ../_static/xc3.png
    :width: 800px
-.. |task1-08| image:: ../_static/task1-08.png
+.. |xc4| image:: ../_static/xc4.png
    :width: 800px
-.. |task1-09| image:: ../_static/task1-09.png
+.. |xc5| image:: ../_static/xc5.png
    :width: 800px
-.. |task1-10| image:: ../_static/task1-10.png
+.. |xc6| image:: ../_static/xc6.png
    :width: 800px
-.. |task1-11| image:: ../_static/task1-11.png
+.. |xc7| image:: ../_static/xc7.png
    :width: 800px
-.. |task1-12| image:: ../_static/task1-12.png
+.. |xc8| image:: ../_static/xc8.png
    :width: 800px
+.. |xc13| image:: ../_static/xc13.png
+   :width: 600px
+.. |xc14| image:: ../_static/xc14.png
+   :width: 600px
+.. |xc15| image:: ../_static/xc15.png
+   :width: 600px
 .. |task2-01| image:: ../_static/task2-01.png
    :width: 300px
 .. |task2-02| image:: ../_static/task2-02.png
@@ -304,12 +310,6 @@ our  AI-assisted and Vibe coding journey.
    :width: 800px
 .. |task2-04| image:: ../_static/task2-04.png
    :width: 800px
-.. |task2-05| image:: ../_static/task2-05.png
-   :width: 800px
-.. |task2-06| image:: ../_static/task2-06.png
-   :width: 600px
-.. |task2-07| image:: ../_static/task2-07.png
-   :width: 600px
 .. |labbgn| image:: ../_static/labbgn.png
    :width: 800px
 .. |labend| image:: ../_static/labend.png
