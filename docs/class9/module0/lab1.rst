@@ -71,39 +71,39 @@ VSCode and use AI to vibe code our application.
 |                                                                                              |
 | |task1-04|                                                                                   | 
 |                                                                                              |
-|   And also close the walkthrough screen by click on the "X"                                  |
++----------------------------------------------------------------------------------------------+
+| 5.  Finally lets close the walkthrough screen by click on the "X"                            |
 |                                                                                              |
 | |task1-14|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| 5. Placed Holder for Gitlab Community Edition CE                                             |
+| 6. Placed Holder for Gitlab Server Access (browser based)                                    |
 | |task1-xx|                                                                                   |
+|                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
-Now we will work on verifying F5 Distributed Cloud tenant access and pre-configured objects needed 
-for the remainder of the labs.
+For now we are finsihed working with VSCode and we can turn our attention to getting F5 Distributed Cloud tenant access verified
 
-The following will guide you through the initial Lab environment access within the F5 Distributed
-Cloud Console.  You should have received an email with an invitation to access a F5 Distributed
-Cloud Tenant. The email will come from **no-reply@cloud.f5.com**.
+The following steps will guide you through the initial setup to access the Distributed Cloud Console and complete user access
+customizations.  We will then verify pre-configured objects such as Namespaces, CE's, Virtual Sites and the vk8's clusters.  These
+objects have been automatically created.  Namespaces are individual to each lab student and contain specific configuration objects.  
+CE's know as customer edges nodes enable Distributed Cloud to extend to any edge location and provide the same SaaS services as within 
+the global platform.  Virtual Sites are logically grouped sites across any edge location's and vk8's are virtual kubernetes services 
+for app deployment.  Distributed Cloud Credential API Tokens are used to make API calls to the platform, these need to be manually generated.
 
-The name of the F5 Distributed Cloud tenant that we will be using for this lab is **f5-xc-lab-app**
-Additionally, the following are key configuration elements for this lab and will be used
-throughout the lab tasks that follow.
 
-* F5 Distributed Cloud Console: https://f5-xc-lab-app.console.ves.volterra.io/
-* Delegated Domain: **lab-app.f5demos.com**
+You should have received an email with an invitation to access a F5 Distributed Cloud Tenant. The email will come 
+from **no-reply@cloud.f5.com**.  Please check the email address used for course registration and its associated spam 
+folders to see if the invitation email has been received. If you have not received an email, please contact a
+memberof the lab team.
 
-After following the invitation email's instructions to **Update Password**, proceed to the first
-step below to access the F5 Distributed Cloud Lab Tenant. 
 
-Lab attendees should have received an invitation 
-(which requests you update your password for access) email to the lab environment. Please check 
-the email address used for course registration and its associated spam folders to see if the
-invitation email has been received.  If you have not received an email, please contact a member
-of the lab team.
+.. note::
+     *F5 Distributed Cloud Console: https://f5-xc-lab-app.console.ves.volterra.io/*
+
+ 
 
 +----------------------------------------------------------------------------------------------+
 | 1. Lets grab that email and click **Accept Invitation**                                      |
@@ -112,7 +112,7 @@ of the lab team.
 | |task1-05|                                                                                   |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
-| 2. This should bring you to the sign-in screen below                                         |
+| 2. This should bring you to the sign-in screen below, Click **Sign in with Okta**            |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | |task1-06|                                                                                   |
@@ -176,6 +176,47 @@ of the lab team.
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
+
++----------------------------------------------------------------------------------------------+
+| 9. Generating a API Token is under your profile begin by click the **profile**  icon in the  | 
+|                                                                                              |
+|    upper right hand corner then select **Account Settings**                                  |
+|                                                                                              |
+| |task1-10|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+| 10. Under **Personal Management** Click **Credentials** then **Add Credentials**              | 
+|                                                                                              |
+| |task2-05|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+| 11. Use the following values:                                                                 | 
+|                                                                                              |
+|    **Credential Name:** *your-namespace-token*                                               |
+|                                                                                              |
+|    **Credential Type:** *API Token                                                           |
+|                                                                                              |
+|    **Expiry Date:** *Any Future Date*                                                        |
+|                                                                                              |
+|                                                                                              |
+| |task2-06|                                                                                   |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+| 12. Click **Generate** at the bottom of the window and take note of the API Token value.      | 
+|                                                                                              |
+|    This will only appear once so copy and store otherwise you will need to either delete and |
+|                                                                                              |
+|    create a new API Token if you lose this key.                                              |
+|                                                                                              |
+| |task2-07|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
+
+
+
+
 Great! Now that we have taken care of some of the inital configurations lets finish up the rest in Task 2.
 
 Task 2: Configure Cline Extension and GITLAB environment 
@@ -217,49 +258,11 @@ our  AI-assisted and Vibe coding journey.
 +----------------------------------------------------------------------------------------------+
 
 
-Before we can complete the GITLAB setup we need to generate an API token from F5 Distributed Cloud.
-Let's head back in and take care of this!
 
-
-+----------------------------------------------------------------------------------------------+
-| 1. Generating a API Token is under your profile begin by click the **profile**  icon in the  | 
-|                                                                                              |
-|    upper right hand corner then select **Account Settings**                                  |
-|                                                                                              |
-| |task1-10|                                                                                   |
-|                                                                                              |
-+----------------------------------------------------------------------------------------------+
-| 2. Under **Personal Management** Click **Credentials** then **Add Credentials**              | 
-|                                                                                              |
-| |task2-05|                                                                                   |
-|                                                                                              |
-+----------------------------------------------------------------------------------------------+
-| 3. Use the following values:                                                                 | 
-|                                                                                              |
-|    **Credential Name:** *your-namespace-token*                                               |
-|                                                                                              |
-|    **Credential Type:** *API Token                                                           |
-|                                                                                              |
-|    **Expiry Date:** *Any Future Date*                                                        |
-|                                                                                              |
-|                                                                                              |
-| |task2-06|                                                                                   |
-|                                                                                              |
-+----------------------------------------------------------------------------------------------+
-
-+----------------------------------------------------------------------------------------------+
-| 4. Click **Generate** at the bottom of the window and take note of the API Token value.      | 
-|                                                                                              |
-|    This will only appear once so copy and store otherwise you will need to either delete and |
-|                                                                                              |
-|    create a new API Token if you lose this key.                                              |
-|                                                                                              |
-| |task2-07|                                                                                   |
-+----------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------+
-| **End of Lab:** Nice Job! Its time to get hands on with AI Coding to Complete App Security!  |
+| **End of Lab:** Nice Job! Its time to move on to the next module!                            |
 +----------------------------------------------------------------------------------------------+
 | |labend|                                                                                     |
 +----------------------------------------------------------------------------------------------+
@@ -272,7 +275,7 @@ Let's head back in and take care of this!
 .. |task1-03| image:: ../_static/task1-03.png
    :width: 800px
 .. |task1-04| image:: ../_static/task1-04.png
-   :width: 500px
+   :width: 400px
 .. |task1-05| image:: ../_static/task1-05.png
    :width: 800px
 .. |task1-06| image:: ../_static/task1-06.png
