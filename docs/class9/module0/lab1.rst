@@ -12,7 +12,7 @@ along with the F5 Distributed Cloud Console. F5 Distributed Cloud is a SaaS base
 services which provides a GUI and API for managing network, security, and compute services. Web App 
 Scanning (WAS) will be utilized to demonstrate vulnerabilities in our AI assisted and Vibe coded application.
 
-**Expected Lab Time: 20 minutes**
+
 
 +----------------------------------------------------------------------------------------------+
 | **Beginning of Lab:**  You are now ready to begin the lab, Enjoy! Ask questions as needed.   |
@@ -37,6 +37,8 @@ Scanning (WAS) will be utilized to demonstrate vulnerabilities in our AI assiste
 
 
 Lets get started!
+
+**Expected Lab Time: 20 minutes**
 
 Task 1: Verify Lab Component Access
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
