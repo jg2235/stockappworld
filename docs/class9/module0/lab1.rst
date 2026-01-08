@@ -315,7 +315,7 @@ ready for AI-assisted coding and CI/CD workflows. Let's make your environment vi
 .. |xc15| image:: ../_static/xc15.png
    :width: 600px
 .. |cline1| image:: ../_static/cline1.png
-   :width: 800px
+   :width: 50px
 .. |cline2| image:: ../_static/cline2.png
    :width: 800px
 .. |cline3| image:: ../_static/cline3.png
