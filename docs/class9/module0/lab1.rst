@@ -1,49 +1,40 @@
 Module 0: Introduction &  Lab Environment Orientation
 =====================================================
 
+This module kicks off our AppWorld *Code, Secure, Repeat - From AI Coding to Complete App Security Lab* and
+is designed to get you oriented and comfortable in our hands-on lab environment.
+
+Throughout this course we dive into essential technologies like:
+
+* F5 Distributed Cloud (including vK8s, WAAP, and WAS)
+* VSCode Server enhanced by the Cline extension
+* GitLab CE for CI/CD
+* Terraform with the volterraedge provider
+* Python
 
 
-Welcome to this *Code, Secure, Repeat - From AI Coding to Complete App Security Lab*.  The 
-following tasks will guide you through verfiying and getting familiar with the lab's initial
-access requirements.  
+In this module, you'll verify access to key tools: starting with VSCode Server for coding, GitLab for version control, and your F5 Distributed Cloud tenant for security.
+We'll also confirm pre-built objects like namespaces and clusters, capture your unique namespace, and generate an API token to streamline automation.
 
-The majority of the lab task will be conducted using Visual Studio Code Server from the Jumphost resource 
-along with the F5 Distributed Cloud Console. F5 Distributed Cloud is a SaaS based control-plane for
-services which provides a GUI and API for managing network, security, and compute services. Web App 
-Scanning (WAS) will be utilized to demonstrate vulnerabilities in our AI assisted and Vibe coded application.
+Follow the steps closely—images are provided for guidance—and let's ensure everything's set up smoothly so you're ready to build and secure apps in the modules ahead. 
 
 
 
 +----------------------------------------------------------------------------------------------+
-| **Beginning of Lab:**  You are now ready to begin the lab, Enjoy! Ask questions as needed.   |
+| **Beginning of Lab:**  Let's get started!  Ask questions as needed.                          |
 +----------------------------------------------------------------------------------------------+
 | |labbgn|                                                                                     |
 +----------------------------------------------------------------------------------------------+
 
 
 
-
-
-+----------------------------------------------------------------------------------------------+
-| Lab attendees will interact and explore the following resources for the next two tasks       |
-|                                                                                              |
-| * **F5 Distributed Cloud Tenant (CE's , vK8's, API Credentials)**                            |
-| * **Visual Studio Code Server (browser-based)**                                              |
-| * **GitLab Community Edition (CE)**                                                          | 
-| * **Cline Extension**                                                                        |
-|                                                                                              |
-+----------------------------------------------------------------------------------------------+
-
-
-
-Lets get started!
-
 **Expected Lab Time: 20 minutes**
 
 Task 1: Verify Lab Component Access
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For this task we will explore and verify access to each component that we will use throughout the course.
+For this task we will explore and verify access Visual Studio Code, in later modules we will work within
+VSCode and use AI to vibe code our application.
 
 +----------------------------------------------------------------------------------------------+
 | 1. First up locate  the **Jump Host** resource and click **Access**  then **VSCODE**         |
@@ -51,25 +42,38 @@ For this task we will explore and verify access to each component that we will u
 | |task1-01|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| 2. Now enter the password *AppWorld2026!* and Click **Submit**                               |
+| 2. Now enter the password *AppWorld2026!* and Click **Submit**  to login to VSCode           |
 |                                                                                              |
 | |task1-02|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| 3. Walk through setting up your color scheme in VSCode, select a color scheme                |
-| and Click **Mark Done**                                                                      |
+| 3. This brings us to the VSCode walkthrough screen, to your left is the Cline extenstion, on |
 |                                                                                              |
+|    the right a AI assisted build agent.  Center screen is where you can adjust color         |
+|                                                                                              |
+|    preference, pick a color scheme and click **Mark Done** when your customizations are      |
+|                                                                                              |
+|    complete.                                                                                 |
 | |task1-03|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
+.. note::
+   *Students may see a this pop-up below, if you do simply click Allow*
 
 +----------------------------------------------------------------------------------------------+
-| 4. You will aslo notice to the far right an AI assisted Build Agent, you can click the "X"   |
-| in the corner to close this out.  (See Image Above for location                              |
+| |task1-13|                                                                                   |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+| 4. Lets close the VSCode AI code assistant by clicking the "X" in the upper right hand corner|
 |                                                                                              |
-| |task1-04|                                                                                   |
+| |task1-04|                                                                                   | 
+|                                                                                              |
+|   And also close the walkthrough screen by click on the "X"                                  |
+|                                                                                              |
+| |task1-14|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
@@ -285,6 +289,10 @@ Let's head back in and take care of this!
    :width: 800px
 .. |task1-12| image:: ../_static/task1-12.png
    :width: 800px
+.. |task1-13| image:: ../_static/task1-13.png
+   :width: 400px
+.. |task1-14| image:: ../_static/task1-14.png
+   :width: 400px
 .. |task2-01| image:: ../_static/task2-01.png
    :width: 300px
 .. |task2-02| image:: ../_static/task2-02.png
