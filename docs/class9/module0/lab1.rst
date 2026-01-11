@@ -206,9 +206,9 @@ memberof the lab team.
 +----------------------------------------------------------------------------------------------+
 | 12. Click **Generate** at the bottom of the window and take note of the API Token value.     | 
 |                                                                                              |
-|    This will only appear once so copy and store otherwise you will need to either delete and |
+|     This will only appear once so copy and store otherwise you will need to either delete and|
 |                                                                                              |
-|    create a new API Token if you lose this key.  Store it we will need it for the next task  |
+|     create a new API Token if you lose this key.  Store it we will need it for the next task |
 |                                                                                              |
 | |xc15|                                                                                       |
 +----------------------------------------------------------------------------------------------+
@@ -263,7 +263,7 @@ ready for AI-assisted coding and CI/CD workflows. Let's make your environment vi
 |                                                                                              |
 |    **Hi Gemini!! Welcome to AppWorld 2026!! We are going to have fun vibe coding !!**        |
 |                                                                                              |
-|   Then click on **Act** as indicated below                                                   |
+|    Then click on **Act** as indicated below                                                  |
 |                                                                                              |
 | |cline5|                                                                                     |
 +----------------------------------------------------------------------------------------------+
