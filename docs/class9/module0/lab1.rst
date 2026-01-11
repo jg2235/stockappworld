@@ -33,8 +33,12 @@ Follow the steps closely—images are provided for guidance—and let's ensure e
 Task 1: Verify Lab Component Access
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For this task we will explore and verify access Visual Studio Code, in later modules we will work within
-VSCode and use AI to vibe code our application.
+For this task we will explore and verify access Visual Studio Code, in later modules we will work within  VSCode and use
+AI to vibe code our application.  Visual Studio Code (VSCode) acts as the primary integrated development environment (IDE) 
+where you will write, debug, and manage your code. The "cline extension" enhances this setup by integrating advanced Git and 
+GitLab-specific features directly into the editor. It enables seamless interactions with GitLab repositories, such as viewing 
+merge requests, issues, and CI/CD pipeline statuses without leaving VSCode. When combined with GitLab, it facilitates an automated
+workflow: where you can commit and push code from VSCode, triggering GitLab's pipelines for automated testing, building, and deployment.
 
 +----------------------------------------------------------------------------------------------+
 | 1. First up locate  the **Jump Host** resource and click **Access**  then **VSCODE**         |
@@ -77,14 +81,41 @@ VSCode and use AI to vibe code our application.
 | |vscode6|                                                                                    |
 +----------------------------------------------------------------------------------------------+
 
+In this curse, GitLab Community Edition serves as the central platform for version control and 
+automated workflows. It hosts student repositories, enabling seamless code collaboration, branching, 
+and merging via Git. Additionally, it automates CI/CD pipelines to run tests, build projects, and 
+deploy code changes triggered by VSCode commits (integrated via the GitLab extension), ensuring 
+efficient feedback loops and streamlined development processes without relying on proprietary tools.
+
+
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| 6. Placed Holder for Gitlab Server Access (browser based)                                    |
-| |task1-xx|                                                                                   |
+| 6. Locate the "Gitlab Server Resource" and click **Access** then **Gitlab**                  |
+|                                                                                              |
+| |gitlab1|                                                                                    |
+|                                                                                              |
+| |gitlab2|                                                                                    |
 |                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
-For now we are finished working with VSCode and we can turn our attention to getting F5 Distributed Cloud tenant access verified
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| 7. Enter your credentials and click **Sign In**                                              |
+|                                                                                              |
+| |gitlab3|                                                                                    |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| 8. This will bring you to the main page where you will work on repo's and CI/CD pipelines    |
+|                                                                                              |
+| |gitlab4|                                                                                    |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+
+
+For now we are finished working with VSCode & Gitlab and we can turn our attention to getting F5 Distributed Cloud tenant access verified
 
 The following steps will guide you through the initial setup to access the Distributed Cloud Console and complete user access
 customizations.  We will then verify pre-configured objects such as Namespaces, CE's, Virtual Sites and the vk8's clusters.  These
@@ -287,11 +318,19 @@ ready for AI-assisted coding and CI/CD workflows. Let's make your environment vi
 .. |vscode3| image:: ../_static/vscode3.png
    :width: 800px
 .. |vscode4| image:: ../_static/vscode4.png
-   :width: 50px
+   :width: 25px
 .. |vscode5| image:: ../_static/vscode5.png
    :width: 400px
 .. |vscode6| image:: ../_static/vscode6.png
    :width: 400px
+.. |gitlab1| image:: ../_static/gitlab1.png
+   :width: 800px
+.. |gitlab2| image:: ../_static/gitlab2.png
+   :width: 800px
+.. |gitlab3| image:: ../_static/gitlab3.png
+   :width: 800px
+.. |gitlab4| image:: ../_static/gitlab4.png
+   :width: 800px
 .. |xc1| image:: ../_static/xc1.png
    :width: 800px
 .. |xc2| image:: ../_static/xc2.png
