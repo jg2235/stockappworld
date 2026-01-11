@@ -287,7 +287,7 @@ ready for AI-assisted coding and CI/CD workflows. Let's make your environment vi
 .. |vscode3| image:: ../_static/vscode3.png
    :width: 800px
 .. |vscode4| image:: ../_static/vscode4.png
-   :width: 400px
+   :width: 50px
 .. |vscode5| image:: ../_static/vscode5.png
    :width: 400px
 .. |vscode6| image:: ../_static/vscode6.png
