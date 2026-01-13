@@ -33,11 +33,12 @@ Task 1: Verify Lab Component Access
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For this task we will explore and verify access Visual Studio Code, in later modules we will work within  VSCode and use
-AI to vibe code our application.  Visual Studio Code (VSCode) acts as the primary integrated development environment (IDE) 
-where you will write, debug, and manage your code.  The "Cline extension" enhances this setup by integrating advanced Git and 
-GitLab-specific features directly into the editor.  It enables seamless interactions with GitLab repositories, such as viewing 
-merge requests, issues, and CI/CD pipeline statuses without leaving VSCode.  When combined with GitLab, it facilitates an automated
-workflow: where you can commit and push code from VSCode, triggering GitLab's pipelines for automated testing, building, and deployment.
+AI to vibe code our application. The VSCode and GitLab environments are pre-provisioned, no installation steps are needed.
+Visual Studio Code (VSCode) acts as the primary integrated development environment (IDE) where you will write, debug, and manage your code.  
+The "Cline extension" enhances this setup by integrating advanced Git and GitLab-specific features directly into the editor.  
+It enables seamless interactions with GitLab repositories, such as viewing merge requests, issues, and CI/CD pipeline statuses without leaving VSCode.  
+When combined with GitLab, it facilitates an automatedworkflow: where you can commit and push code from VSCode, triggering GitLab's pipelines for 
+automated testing, building, and deployment.
 
 +----------------------------------------------------------------------------------------------+
 | 1. First up locate  the **Jump Host** resource and click **Access**  then **VSCODE**         |
@@ -52,7 +53,7 @@ workflow: where you can commit and push code from VSCode, triggering GitLab's pi
 
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| 3. This brings us to the VSCode walkthrough screen, to your left is the Cline extenstion, on |
+| 3. This brings us to the VSCode walkthrough screen, to your left is the Cline extension, on  |
 |                                                                                              |
 |    the right a Vibe Coding build agent.  Center screen is where you can adjust color         |
 |                                                                                              |
@@ -89,7 +90,7 @@ efficient feedback loops and streamlined development processes without relying o
 
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
-| 6. Locate the "Gitlab Server Resource" and click **Access** then **Gitlab**                  |
+| 6. Locate the "GitLab Server Resource" and click **Access** then **GitLab**                  |
 |                                                                                              |
 | |gitlab1|                                                                                    |
 |                                                                                              |
@@ -114,7 +115,7 @@ efficient feedback loops and streamlined development processes without relying o
 +----------------------------------------------------------------------------------------------+
 
 
-For now we are finished working with VSCode & Gitlab and we can turn our attention to getting F5 Distributed Cloud tenant access verified
+For now we are finished working with VSCode & GitLab and we can turn our attention to getting F5 Distributed Cloud tenant access verified
 
 The following steps will guide you through the initial setup to access the F5 Distributed Cloud Console and complete user access
 customizations.  We will then verify pre-configured objects such as Namespaces, CE's, Virtual Sites and the vk8's clusters.  These
@@ -199,7 +200,7 @@ memberof the lab team.
 +----------------------------------------------------------------------------------------------+
 | 8. To the the right you will see a unique **Namespace** assigned specifically to you, keep   |
 |                                                                                              |
-|    note of this as you will use this throught the remaining labs                             |
+|    note of this as you will use this throughout the remaining labs                           |
 +----------------------------------------------------------------------------------------------+
 |                                                                                              |
 | |xc8|                                                                                        |
@@ -238,7 +239,10 @@ memberof the lab team.
 |                                                                                              |
 |     This will only appear once so copy and store otherwise you will need to either delete and|
 |                                                                                              |
-|     create a new API Token if you lose this key.  Store it we will need it for the next task |
+|     create a new API Token if you lose this key.  Store the API Token Key as this is what    |
+|                                                                                              |
+|     allows the GitLab CI/CD pipeline to talk to F5 Distributed Cloud later on in Module 2    |
+|                                                                                              |
 |                                                                                              |
 | |xc15|                                                                                       |
 +----------------------------------------------------------------------------------------------+
@@ -249,14 +253,15 @@ Great! Now that we have taken care of some of the inital configurations lets fin
 
 
 
-Task 2: Configure Cline Extension and GITLAB environment 
+Task 2: Configure Cline Extension and GitLab environment 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Hey there, future app innovators! Dive into this essential setup task to supercharge your VSCode with the 
 Cline extension powered by Gemini and integrate GitLab with your F5 Distributed Cloud API token for seamless automation.
-You'll configure Cline by selecting GCP Vertex AI as the provider and the gemini-2.5-flash model, then 
-test it with a fun welcome prompt to verify connectivity.  Next, set up GitLab to use your API token and 
-confirm everything's linked up.  With guided steps and images to help, this quick config will have you 
+You'll configure Cline by selecting GCP Vertex AI as the provider and the Gemini-2.5-flash model, then 
+test it with a fun welcome prompt to verify connectivity.  We chose the Gemini-2.5-flash model due to its faster response
+times, low latency, efficient computation resource usage along with strong performance on coding tasks.  Next, set up GitLab 
+to use your API token and confirm everything's linked up.  With guided steps and images to help, this quick config will have you 
 ready for Vibe Coding and CI/CD workflows. Let's make your environment vibe!
 
 +----------------------------------------------------------------------------------------------+
