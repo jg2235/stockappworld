@@ -307,6 +307,46 @@ ready for Vibe Coding and CI/CD workflows. Let's make your environment vibe!
 | |cline6|                                                                                     |
 +----------------------------------------------------------------------------------------------+
 
+Remember our Distributed Cloud API Token we generated earlier, now we are going to configure Gitlab
+to be able to use this for our CI/CD pipeline.
+
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| 1. Now lets get back into the "GitLab Server Resource" and click **Access** then **GitLab**  |
+|                                                                                              |
+| |gitlab1|                                                                                    |
+|                                                                                              |
+| |gitlab2|                                                                                    |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| 2. Enter your credentials and click **Sign In**                                              |
+|                                                                                              |
+| |gitlab3|                                                                                    |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| 3. Back on this main screen on the left click **Project** you will see the current AppWorld  |
+|                                                                                              |
+|    we will be working with today.  Click the three dots to right and select **Edit***        |
+|                                                                                              |
+| |gitlab5|                                                                                    |
++----------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------+
+|                                                                                              |
+| 4. On the left locate and click **CI/CD**                                                    |
+|                                                                                              |
+| |gitlab6|                                                                                    |
+|                                                                                              |
++----------------------------------------------------------------------------------------------+
+
+
 
 +----------------------------------------------------------------------------------------------+
 | **End of Lab:** Nice Job! Its time to move on to the next module!                            |
@@ -334,6 +374,10 @@ ready for Vibe Coding and CI/CD workflows. Let's make your environment vibe!
 .. |gitlab3| image:: ../_static/gitlab3.png
    :width: 800px
 .. |gitlab4| image:: ../_static/gitlab4.png
+   :width: 800px
+.. |gitlab5| image:: ../_static/gitlab4.png
+   :width: 800px
+.. |gitlab6| image:: ../_static/gitlab4.png
    :width: 800px
 .. |xc1| image:: ../_static/xc1.png
    :width: 800px
