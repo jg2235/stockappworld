@@ -375,9 +375,9 @@ to be able to use this for our CI/CD pipeline.
    :width: 800px
 .. |gitlab4| image:: ../_static/gitlab4.png
    :width: 800px
-.. |gitlab5| image:: ../_static/gitlab4.png
+.. |gitlab5| image:: ../_static/gitlab5.png
    :width: 800px
-.. |gitlab6| image:: ../_static/gitlab4.png
+.. |gitlab6| image:: ../_static/gitlab6.png
    :width: 800px
 .. |xc1| image:: ../_static/xc1.png
    :width: 800px
